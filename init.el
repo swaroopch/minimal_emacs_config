@@ -16,6 +16,10 @@
 (setq locale-coding-system 'utf-8)
 (setq default-process-coding-system '(utf-8 . utf-8))
 
+;; UI
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+
 ;; Font
 (set-frame-font "Source Code Pro-13" nil t)
 
