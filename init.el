@@ -41,7 +41,6 @@
 (defvar my-packages
   '(helm
     org
-    org-pomodoro
     solarized-theme))
 
 (require-packages my-packages)
