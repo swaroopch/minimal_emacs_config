@@ -122,7 +122,7 @@
 ;; / indicates entering the state
 (setq org-todo-keywords
       '((sequence "TODO(t)" "WAITING(w)" "SOMEDAY/MAYBE(s)"
-                  "PENDING_PRODUCTION(p!)" "DELEGATED(g!)"
+                  "DELEGATED(g!)"
                   "|"
                   "DONE(d!)" "CANCELLED(c@)")))
 
