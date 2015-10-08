@@ -21,13 +21,13 @@
 (tool-bar-mode -1)
 
 ;; Font
-(set-frame-font "Source Code Pro-13" nil t)
+(set-frame-font "Fira Mono-14" nil t)
 
 ;; Package management
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
-;;(package-refresh-contents)
+(package-refresh-contents)
 (package-initialize)
 
 ;; From Emacs Prelude
